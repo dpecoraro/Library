@@ -17,5 +17,7 @@ namespace Core
     public class Security
     {
         public string Secret { get; set; }
+
+        public byte[] GetKey => Encoding.ASCII.GetBytes(this.Secret);
     }
 }

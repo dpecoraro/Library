@@ -1,15 +1,19 @@
-﻿using Core.Model;
+﻿using Core;
+using Core.IServices;
+using Core.Model;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 
-namespace Services
+namespace Services.Ports
 {
-    public class TokenService
+    public class TokenService : ITokenService
     {
-        private readonly Appsettings _settings { get; set; }
+        private Appsettings _settings { get; set; }
 
         public TokenService(IOptions<Appsettings> settings)
         {
@@ -19,7 +23,7 @@ namespace Services
         public string GenerateToken(User user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(Settings.Secret);
+            var key = Encoding.ASCII.GetBytes(_settings.Security.Secret);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]

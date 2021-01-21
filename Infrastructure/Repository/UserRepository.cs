@@ -1,4 +1,5 @@
-﻿using Core.Model;
+﻿using Core.IRepository;
+using Core.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace Infrastructure.Repository
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
         public User Get(string name, string password)
         {
