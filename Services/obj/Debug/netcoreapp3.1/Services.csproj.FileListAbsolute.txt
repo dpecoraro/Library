@@ -1,0 +1,4 @@
+C:\Users\demetrius.pecoraro\Documents\Documentos\AwsTraining\Library\Services\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\demetrius.pecoraro\Documents\Documentos\AwsTraining\Library\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+C:\Users\demetrius.pecoraro\Documents\Documentos\AwsTraining\Library\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+C:\Users\demetrius.pecoraro\Documents\Documentos\AwsTraining\Library\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs

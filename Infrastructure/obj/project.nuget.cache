@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JjzC4xuJNHJhKrnqXSyACWfOZ3fzlzJLtYWSqe3+i2CbC99KDhDjdqAA+49U6RO8Kox0xTh7iB711bNR1QoJOg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\demetrius.pecoraro\\Documents\\Documentos\\AwsTraining\\Library\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\demetrius.pecoraro\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
